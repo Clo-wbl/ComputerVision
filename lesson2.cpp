@@ -1,3 +1,4 @@
+//#include <../../../../opencv/opencv-4.x/include/opencv2/opencv.hpp>
 #include <opencv2/opencv.hpp>
 
 #include <iostream>
@@ -9,7 +10,7 @@ using namespace cv;
 int main(int argc, char **argv)
 {
     // Read file
-    Mat image = imread("/Man walking");
+    Mat image = imread("/img/Man walking");
 
     if (image.empty())
     {
